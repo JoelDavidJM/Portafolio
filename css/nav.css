@@ -9,6 +9,7 @@
   padding: 0 2em;
   z-index: 3;
   backdrop-filter: blur(15px);
+  background-color: var(--bg-secondary);
 }
 
 .nav--menu {

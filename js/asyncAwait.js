@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+
   const URL = 'https://fundametos-api-porfolios-dev-exsn.2.ie-1.fl0.io/api/v1/reviews'
 
   const reviewsList = document.getElementById('reviews-list')
@@ -22,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
             <div class="review-rating">${"★".repeat(element.rating)}</div>
           </div>
       </li>
-        
         `
       });
 

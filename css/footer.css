@@ -29,7 +29,11 @@
 }
 
 .footer__icon {
-  font-size: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.footer__icon:hover {
+  color: #28b24b;
 }
 
 .footer__location {
@@ -41,7 +45,6 @@
   font-size: 0.8rem;
 }
 
-/* Estilo del bloque derecho del footer */
 .footer__right {
   flex: 0.7;
   display: flex;
@@ -49,14 +52,14 @@
 }
 
 .footer__social-icon {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--text);
   text-decoration: none;
   transition: color 0.3s ease-out;
 }
 
 .footer__social-icon--facebook:hover {
-  color: #1877f2;
+  color: gray;
 }
 
 .footer__social-icon--linkedin:hover {

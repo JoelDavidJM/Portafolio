@@ -1,0 +1,135 @@
+.section__h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  
+  .contact-options {
+    display: flex;
+    gap: 1.1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+  }
+  
+  .section__div-alt1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .section__div-img-alt1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .section__div-alt1, .section__div-img:hover .section__div-img-alt1 {
+    display: flex;
+  }
+  .section__div-img-alt1, .section__div-img:hover .section__div-alt1 {
+    display: none;
+  }
+  
+  
+  .section__div-alt2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .section__div-img-alt2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .section__div-alt2, .section__div-img:hover .section__div-img-alt2 {
+    display: flex;
+  }
+  .section__div-img-alt2, .section__div-img:hover .section__div-alt2 {
+    display: none;
+  }
+  
+  .section__div-alt3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .section__div-img-alt3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .section__div-alt3, .section__div-img:hover .section__div-img-alt3 {
+    display: flex;
+  }
+  .section__div-img-alt3, .section__div-img:hover .section__div-alt3 {
+    display: none;
+  }
+  
+  .section__div-alt4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .section__div-img-alt4 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .section__div-alt4, .section__div-img:hover .section__div-img-alt4 {
+    display: flex;
+  }
+  .section__div-img-alt4, .section__div-img:hover .section__div-alt4 {
+    display: none;
+  }
+  
+  .section__div-alt5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .section__div-img-alt5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .section__div-alt5, .section__div-img:hover .section__div-img-alt5{
+    display: flex;
+  }
+  .section__div-img-alt5, .section__div-img:hover .section__div-alt5 {
+    display: none;
+  }
+  
+  @media (max-width:768px) {
+    .contact-options {
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .contact-item {
+      width: 120px;
+      height: 120px;
+    }
+  }
