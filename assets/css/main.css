@@ -124,7 +124,7 @@
 .logo1{
     width: 56px;
     height: 98px;
-    background: url(/img/logohtml.png);
+    background: url(./img/logohtml.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -135,7 +135,7 @@
 .logo2{
     width: 56px;
     height: 98px;
-    background: url(/img/logojs.png);
+    background: url(./img/logojs.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -146,7 +146,7 @@
 .logo3{
     width: 56px;
     height: 98px;
-    background: url(/img/logocss.png);
+    background: url(./img/logocss.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -157,7 +157,7 @@
 .logo4{
     width: 56px;
     height: 98px;
-    background: url(/img/logogit.png);
+    background: url(./img/logogit.png);
     background-position: center;
     background-size: cover;
     position: absolute;
