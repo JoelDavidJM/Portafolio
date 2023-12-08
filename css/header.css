@@ -167,8 +167,8 @@
 
 .bubbles span {
     position: relative;
-    width: 100px;
-    height: 100px;
+    width: 65px;
+    height: 65px;
     background-color: var(--bubbles1);
     margin: 0;
     border-radius: 50%;
@@ -229,5 +229,12 @@
     .morph {
         width: 88vw;
         height: 88vw;
+    }
+}
+
+@media (max-width:780px) {
+    .bubbles span {
+        width: 30px;
+        height: 30px;
     }
 }
