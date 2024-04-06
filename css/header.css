@@ -19,6 +19,7 @@
     font-weight: var(--text-ligth);
     text-align: center;
     font-size: 6vw;
+    color: black;
 }
 .header__h1>ul {
     transition: translate(-50%, -50%);
@@ -31,12 +32,12 @@
     list-style: none;
     font-weight: 500;
     letter-spacing: 2-5vw;
-    color: var(--trancicion);
+    color: var(--letter);
     text-shadow: var(--trancicion);
     animation: anim 3s infinite linear;
 }
 
-@keyframes anim {
+/* @keyframes anim {
     0% {
         color: var(--trancicion);
         text-shadow: var(--trancicion);
@@ -87,7 +88,7 @@
 }
 .header__h1>ul li:nth-child(10) {
     animation-delay: 2s;
-}
+} */
 .header__h2 {
     font-weight: var(--text-bold);
     text-transform: uppercase;

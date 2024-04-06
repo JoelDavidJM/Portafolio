@@ -4,8 +4,9 @@
     align-items: center;
     flex-direction: column;
     padding: 1em 0 2em 0;
+    overflow: hidden;
   }
-  
+
   .section {
     width: 90%;
     max-width: 1000px;
@@ -120,10 +121,16 @@
   .tech-card__front:nth-child(4) {
       color: var(--sombra);
   }
+  .tech-card__front:nth-child(5) {
+    color: var(--clr);
+}
+.tech-card__front:nth-child(6) {
+    color: var(--wihte);
+}
   
   .logo1{
-      width: 56px;
-      height: 98px;
+      width: 45px;
+      height: 88px;
       background: url(/img/logohtml.png);
       background-position: center;
       background-size: cover;
@@ -133,8 +140,8 @@
       animation: rotar 7s linear infinite;
   }
   .logo2{
-      width: 56px;
-      height: 98px;
+      width: 45px;
+      height: 88px;
       background: url(/img/logojs.png);
       background-position: center;
       background-size: cover;
@@ -144,8 +151,8 @@
       animation: rotar 7s linear infinite;
   }
   .logo3{
-      width: 56px;
-      height: 98px;
+      width: 45px;
+      height: 88px;
       background: url(/img/logocss.png);
       background-position: center;
       background-size: cover;
@@ -155,8 +162,8 @@
       animation: rotar 7s linear infinite;
   }
   .logo4{
-      width: 56px;
-      height: 98px;
+      width: 45px;
+      height: 88px;
       background: url(/img/logogit.png);
       background-position: center;
       background-size: cover;
@@ -165,7 +172,28 @@
       filter: drop-shadow(0px 15px 15px rgb(255, 136, 0));
       animation: rotar 7s linear infinite;
   }
-  
+  .logo5{
+    width: 45px;
+    height: 88px;
+    background: url(/img/logoReact.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    filter: drop-shadow(0px 15px 15px rgb(6, 221, 236));
+    animation: rotar 7s linear infinite;
+}
+.logo6{
+    width: 45px;
+    height: 88px;
+    background: url(/img/logoNodeJs.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    filter: drop-shadow(0px 15px 15px rgb(47, 236, 9));
+    animation: rotar 7s linear infinite;
+}  
   .section__div-ul:hover{
       cursor: pointer;
   }
@@ -223,9 +251,9 @@
   }
   .section__div {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      gap: 60%;
+      grid-template-columns: repeat(6, 5fr);
+      grid-template-rows: repeat(1, 5fr);
+      gap: 40%;
       justify-items: center;
       align-items: center;
       justify-content: center;

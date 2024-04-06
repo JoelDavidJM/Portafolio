@@ -6,6 +6,7 @@
     --text-medium: 400;
     --text-bold: 600;
     scroll-behavior: smooth;
+    
 }
 
 *,*::before,*::after {
@@ -27,6 +28,8 @@
     --golden: rgb(6, 66, 197);
     --sombra:rgb(12, 11, 10);
     --trancicion: rgba(82, 77, 77, 0.048);
+    --letter: rgb(27, 27, 63);
+    --wihte: black;
 } 
 .body--dark {
     --bg: rgb(27, 27, 63);
@@ -40,6 +43,8 @@
     --golden: rgb(236, 209, 52);
     --sombra:rgb(189, 46, 141);
     --trancicion: rgba(0, 0, 0, 0.288);
+    --letter: black;
+    --wihte: white;
 }
 .body {
     background-color: var(--bg);

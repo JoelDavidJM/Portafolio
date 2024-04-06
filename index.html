@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/css/contacMe.css">
   <link rel="stylesheet" href="/css/footer.css">
   <link rel="stylesheet" href="/css/form.css">
+  <link rel="stylesheet" href="css/proyect.css">
 
   <meta name="author" content="Joel Jativa">
   <meta name="description"
@@ -76,7 +77,7 @@
             data-translate-en="Technologies">Tecnologías</a></li>
         <li class="nav__li"><a href="#proyects" data-translate-es="Proyectos" data-translate-en="Proyects">Proyectos</a>
         </li>
-        <li class="nav__li"><a href="#reviews" data-translate-es="Reseñas" data-translate-en="Reviews">Reseñas</a></li>
+        <!-- <li class="nav__li"><a href="#reviews" data-translate-es="Reseñas" data-translate-en="Reviews">Reseñas</a></li> -->
         <li class="nav__li"><a href="#contacMe" data-translate-es="Contáctame"
             data-translate-en="Contac Me">Contáctame</a></li>
       </ul>
@@ -124,14 +125,14 @@
       data-translate-en="Full Stack Web Developer">Desarrollador web Full Stack</h2>
     <div class="div--contact">
 
-      <a id="contactMeBtn" href="contactMe" class="div__a">
+      <a id="contactMeBtn" href="mailto:jodajativa@gmail.com" class="div__a">
         <span data-translate-es="Contáctame" data-translate-en="contactMe">Contáctame</span>
         <span class="material-symbols-outlined">
           call
         </span>
       </a>
 
-      <a class="div__a" download href="/cv/cv_es.png" data-translate-es="Descargar CV" data-translate-en="Download CV"
+      <a class="div__a" download href="/cv/Currículum Vitae Cv Español.pdf" data-translate-es="Descargar CV" data-translate-en="Download CV"
         id="downloadCV">Descargar CV
 
       </a>
@@ -193,6 +194,9 @@
         <span class="tech-card__front">JavaScript</span>
         <span class="tech-card__front">CSS</span>
         <span class="tech-card__front">GIT</span>
+        <span class="tech-card__front">React</span>
+        <span class="tech-card__front">Node.js</span>
+
       </div>
       <div class="section__div-div">
         <ul class="section__ul-container">
@@ -214,38 +218,62 @@
           <li class="section__div-ul logo4"></li>
           <li class="bottom_part"></li>
         </ul>
+
+        <ul class="section__ul-container">
+          <li class="section__div-ul logo5"></li>
+          <li class="bottom_part"></li>
+        </ul>
+
+        <ul class="section__ul-container">
+          <li class="section__div-ul logo6"></li>
+          <li class="bottom_part"></li>
+        </ul>
       </div>
 
     </section>
 
     <section id="proyects" class="section section--projects">
       <h2 class="section__h2" data-translate-es="Proyectos" data-translate-en="Projects">Proyectos</h2>
-
-
-
-      <article class='article'>
-
-        <button class='article__button left'>
-          <i class='bx bx-left-arrow-alt'></i>
-        </button>
-
-        <ul class='article__ul' id="conteiner_projects">
-          <!-- aqui se insertaran los li -->
-        </ul>
-
-        <button class="article__button rigth">
-          <i class='bx bx-right-arrow-alt'></i>
-        </button>
-
-      </article>
+      <div class="container__carrusel">
+        <div class="carrusel" id="slider">
+          <section class="slider__section">
+            <img src="/img/fortuna.png" alt="">
+            <h1 class="pryect__section__h1">En este proyecto, se desarrolló completamente utilizando React. Al ingresar a la aplicación, puedes visualizar tu fortuna, y al hacer clic en el botón, puedes cambiar tu suerte. <span class="link">Link: <a href="https://proyecto-galleta.onrender.com">https://proyecto-galleta.onrender.com</a> </span></h1>
+          </section>
+          <section class="slider__section">
+            <img src="/img/clima.png" alt="">
+            <h1 class="pryect__section__h1">
+              En este proyecto se ha creado una aplicación que te permite visualizar el clima de tu ciudad. En ella, encontrarás información como la latitud, longitud y el tiempo actual en el que se encuentra tu ciudad, entre otros datos relevantes. <span class="link">Link: <a href="https://tiempo-climatico.onrender.com  ">https://tiempo-climatico.onrender.com </a></span></h1>
+          </section>
+          <section class="slider__section">
+            <img src="/img/user crud.png" alt="">
+            <h1 class="pryect__section__h1 user">
+              En este proyecto se ha desarrollado tanto el frontend como el backend, junto con una API para almacenar usuarios. A medida que se van creando usuarios, se almacenan en una base de datos dedicada. Además, la aplicación cuenta con su propio botón de registro para facilitar el proceso de inscripción. <span class="link">Link: <a href="https://user-crud-sddl.onrender.com">https://user-crud-sddl.onrender.com </a></span class='link'> Postman: <a href=" https://documenter.getpostman.com/view/33126947/2sA2rCUgih"> https://documenter.getpostman.com/view/33126947/2sA2rCUgih</a></h1>
+          </section>
+          <section class="slider__section">
+            <img src="/img/rick y morty.png" alt="">
+            <h1 class="pryect__section__h1">Esta aplicación ha sido creada exclusivamente con tecnologías de frontend. En ella, los usuarios pueden explorar diferentes personajes de la serie "Rick y Morty" ingresando un número del 1 al 105. <span class="link">Link: <a href="https://mick-and-morty.onrender.com ">https://mick-and-morty.onrender.com </a></span><h1>
+          </section>
+          <section class="slider__section">
+            <img src="/img/pokedex.png" alt="">
+            <h1 class="pryect__section__h1 pokemon">En este proyecto, los usuarios podrán explorar diferentes Pokémon de la serie de Pokémon, junto con sus respectivos poderes y personalizaciones de personaje. <span class="link">Link: <a href="https://pokemon-6uer.onrender.com ">https://pokemon-6uer.onrender.com </a></span></h1>
+          </section>
+          <section class="slider__section">
+            <img src="/img/hotel app.png" alt="">
+            <h1 class="pryect__section__h1">Esta aplicación fue desarrollada desde cero, con la creación de su propio frontend para la visualización de hoteles. En el backend, se desarrolló una API personalizada para permitir la visualización de hoteles, así como funcionalidades adicionales como registro de usuarios, reseñas, y más. <span class="link">Link: <a href="https://boking.onrender.com ">https://boking.onrender.com </a></span> <span class="link">Postman: <a href="https://documenter.getpostman.com/view/33126947/2sA35D6jFU ">https://documenter.getpostman.com/view/33126947/2sA35D6jFU </a></span></h1>
+          </section>
+        </div>
+        <div class="btn__left1"><i class='bx bxs-left-arrow-circle'></i></div>
+        <div class="btn__rigth1"><i class='bx bxs-right-arrow-circle'></i></div>
+      </div>
     </section>
 
-    <section id="reviews" class="section section--reviws ">
+    <!-- <section id="reviews" class="section section--reviws ">
       <h2 data-translate-en="Reviews" data-translate-es="Reseñas" class="section__h2">Reseñas</h2>
       <ul class="ul--review" id="reviews-list">
-        <!-- aqui insertaremos los li -->
-      </ul>
-    </section>
+         aqui insertaremos los li -->
+      <!-- </ul>
+    </section> --> 
 
     <section id="contacMe" class="section">
       <h2 class="section__h2" id="contactHeader" data-translate-en="Contact Me" data-translate-es="Contáctame">
@@ -276,13 +304,13 @@
             <img src="/img/gif_Telefono.gif" alt="" class="section__div-img-alt3">
           </div>
         </a>
-        <a class="contact-item" href="https://www.linkedin.com" target="_blank">
+        <!-- <a class="contact-item" href="linkedin.com/in/joel-jativa-8554a4298" target="_blank">
 
           <div class="section__div-img">
             <img src="/img/logo_Linkedin.webp" alt="" class="section__div-alt4">
             <img src="/img/gifLinkedin.gif" alt="" class="section__div-img-alt4">
           </div>
-        </a>
+        </a> -->
         <a class="contact-item" href="https://github.com/JoelDavidJM" target="_blank">
 
           <div class="section__div-img">
@@ -316,9 +344,9 @@
       <a href="https://github.com/JoelDavidJM" class="footer__social-icon footer__social-icon--facebook">
         <i class='bx bxl-github'></i>
       </a>
-      <a href="https://linkedin.com/yourprofile" class="footer__social-icon footer__social-icon--linkedin">
+       <!-- <a href="linkedin.com/in/joel-jativa-8554a4298" class="footer__social-icon footer__social-icon--linkedin">
         <i class="bx bxl-linkedin"></i>
-      </a>
+      </a>  -->
     </div>
 
   </footer>
@@ -367,7 +395,7 @@
   <script src="./js/responsiveMenu.js"></script>
   <script src="./js/progresBar.js"></script>
   <script src="./js/promese.js"></script>
-  <script src="./js/asyncAwait.js"></script>
+  <script src="./js/proyect.js"></script> 
   <script src="./js/form.js"></script>
 
 </body>
